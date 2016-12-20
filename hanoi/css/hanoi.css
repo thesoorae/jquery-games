@@ -1,0 +1,82 @@
+html body h1 ul li img div table tr td {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  border-bottom: black solid 10px;
+  width: 200px;
+  display:inline-block;
+  align-self: center;
+  margin: auto;
+}
+
+li {
+  height: 30px;
+  display: block;
+  max-width: 200px
+  font-family: sans-serif;
+  font-size: 80px;
+  color: red;
+  text-align: center;
+  float: center;
+  align-content: center;
+  /*border: 1px solid black;*/
+  height: 100px;
+
+  /*background-color: yellow;*/
+}
+li.bottom{
+  height: 5px;
+  color: red;
+  background-color: red;
+}
+
+/*li.bottom:hover{
+  background-color:blue;
+}*/
+
+ul:hover {
+  border-bottom: blue solid 10px;
+}
+
+ul.clicked {
+  /*background-color: green;*/
+  border-bottom: green solid 10px;
+}
+
+div.container {
+  display: block;
+  width: 1000px;
+  height: 1000px;
+}
+
+div.tower{
+  display:inline-block;
+  height:500px;
+
+}
+
+
+
+img.big {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 200px;
+}
+
+img.med {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100px;
+}
+
+img.small {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 50px;
+}
